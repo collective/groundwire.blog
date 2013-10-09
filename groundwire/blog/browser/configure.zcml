@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+      
+  <browser:page
+      name="removeblogstar"
+      for="Products.CMFCore.interfaces.ISiteRoot"
+      class=".removeblogstar.RemoveBlogStar"
+      permission="cmf.ManagePortal"
+      />
+
+</configure>

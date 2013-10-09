@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>2.0</version>
+  <dependencies>
+      <dependency>profile-Products.Scrawl:default</dependency>
+      <dependency>profile-plone.formwidget.recaptcha:default</dependency>
+      <dependency>profile-plone.app.discussion:default</dependency>
+  </dependencies>
+</metadata>

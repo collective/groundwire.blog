@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<portlets>
+  <portlet
+    addview="collective.blog.portlets.archive"
+    remove="True"
+    />
+  <portlet
+    addview="collective.blog.portlets.last_entries"
+    remove="True"
+    />
+  <portlet
+     addview="collective.twitterportlet.TwitterPortlet"
+     remove="True"
+     />
+   <portlet
+      addview="qi.portlet.TagClouds.TagCloudPortlet"
+      remove="True"
+      />
+    <portlet
+       addview="collective.flowplayer.Player"
+       remove="True"
+     />
+</portlets>

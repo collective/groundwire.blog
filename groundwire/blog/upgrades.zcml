@@ -1,0 +1,15 @@
+<configure
+    xmlns:zope="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="groundwire.blog">
+        
+    <genericsetup:upgradeStep
+        source="1.0"
+        destination="2.0"
+        title="Upgrade groundwire.blog from 1.0 to 2.0"
+        description=""
+        profile="groundwire.blog:default"
+        handler="groundwire.blog.upgrades.upgrade_10_to_20"
+        />
+
+</configure>
